@@ -1,0 +1,703 @@
+body{
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 99; 
+    width: 100%; 
+}
+
+.containerone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    background-color: whitesmoke;
+    color:orange;
+    padding: 5px;
+}
+
+.containerone .iconname{
+    display: flex;
+    align-items:center;
+    margin-left: 2%;
+}
+
+.containerone .iconname img{
+    padding-right: 25px;    
+    height: 50px;
+    width:50px;
+}
+
+.logos a{
+    text-decoration: none;
+    color: orange;
+}
+
+.logos a img{
+    height:20px;
+    width:20px;
+}
+
+.containertwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.containertwo a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.containertwo .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.containertwo .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.containertwo .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.containerthree{
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+}
+
+.containerthree img{
+    height: 100%;
+    width: 100%;
+}
+
+.containerfour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    border-color: darkgrey;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+}
+
+.containerfour img{
+    margin-right: 20px;
+    padding:4%;
+}
+
+.textinfour h1{
+    margin-bottom: -15px;
+}
+
+.incontfour {
+    height: 50px;
+    width:100px;
+    background-color: black;
+    color:white;
+    border-color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.incontfour a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.incontfour a:visited{
+    color: white;
+}
+
+.incontfour:hover{
+    background-color: grey;
+}
+
+.containerfour img{
+    height: 50px;
+    width: 50px;
+}
+
+.containerfive{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.parts{
+    height: auto;
+    width:20%;
+}
+
+.parts img{
+    height: 200px;
+    width:310px;
+}
+
+.containersix{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.containersix img{
+    border-radius: 5px;
+}
+
+.containersix .heading{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    background-color: whitesmoke;
+    text-align: center;
+    color: orange;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.contactformcont{
+    float: left;
+    justify-content: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.contactformcont input{
+    border-radius: 4px;
+    border-color: solid 1px;
+    padding: 3px;
+    background-color: orange;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.contactformcont textarea{
+    border-radius: 4px;
+    border-color: solid;
+    margin-top: -1.5%;
+    background-color: orange;
+}
+
+.pageinfofoot{
+    float: right;
+    justify-content: center;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.pageinfofoot img{
+    margin-bottom: -19px;
+    height:30px;
+    width:30px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+    .navbar{
+        width: 100%; 
+    }
+    
+    .containerone{
+        padding: 2px;
+    }
+    
+    .containerone .iconname{
+        margin-left: 10px;
+    }
+    
+    .containerone .iconname img{
+        padding-right: 20px;
+        height:20px;
+        width:20px;    
+    }
+    
+    .containerone .iconname h1{
+        font-size: medium;
+    }
+
+    .logos{
+        margin-right: 1%;
+    }
+
+    .logos a img{
+        width:13px;
+        height:13px;
+    }
+    
+    .containertwo{
+        margin-top:-1%;
+        padding: 3px;
+    }
+    
+    .containertwo a{
+        margin-top:3px;
+    }
+    
+    .containerthree{
+        margin-top: 1%;
+    }
+    
+    .containerfour img{
+        padding:3%;
+    }
+    
+    .textinfour h1{
+        margin-bottom: -17px;
+        font-size: medium;
+    }
+
+    .textinfour p{
+        font-size: small;
+    }
+    
+    .incontfour {
+        border-radius: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 120px;
+        height: 36px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .containerfour img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .containerfive{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        height: auto;
+    }
+    
+    .parts{
+        height: auto;
+        width:25%;
+        margin-bottom: 3%;
+    }
+    
+    .parts img{
+        height: 160px;
+        width: 250px;
+    }
+    
+    .containersix{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    
+    .containersix img{
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
+    }
+    
+    footer{
+        display: flex;
+        background-color: whitesmoke;
+        text-align: center;
+        color: orange;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    
+    .contactformcont{
+        float: left;
+        justify-content: center;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    
+    .contactformcont input{
+        border-radius: 4px;
+        border-color: solid 1px;
+        padding: 3px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .contactformcont textarea{
+        border-radius: 4px;
+        border-color: solid;
+        margin-top: -1.5%;
+        background-color: orange;
+    }
+    
+    .pageinfofoot{
+        float: right;
+        justify-content: center;
+        width: 50%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){ 
+    .containerone .iconname{
+        margin-left: 10px;
+    }
+    
+    .containerone .iconname img{
+        padding-right: 15px;
+        height:20px;
+        width:20px;    
+    }
+    
+    .containerone .iconname h1{
+        font-size: large;
+    }
+
+    .logos{
+        padding-right: 5%;
+    }
+
+    .logos a img{
+        width:13px;
+        height:13px;
+    }
+    
+    .containertwo{
+        margin-top:-1%;
+        padding: 3px;
+        padding-right: 5%;
+    }
+    
+    .containertwo a{
+        margin-top:3px;
+    }
+    
+    .containerthree{
+        margin-top: 1%;
+    }
+    
+    .containerfour img{
+        padding:3%;
+    }
+    
+    .textinfour h1{
+        margin-bottom: -17px;
+        font-size: medium;
+    }
+
+    .textinfour p{
+        font-size: small;
+    }
+    
+    .incontfour {
+        border-radius: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 120px;
+        height: 36px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .containerfour img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .containerfive{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+    
+    .parts{
+        height: auto;
+        width:100%;
+        margin-bottom: 3%;
+    }
+    
+    .parts img{
+        height: 200px;
+        width: 310px;
+    }
+
+    .parts hr{
+        width:100%;
+    }
+    
+    .containersix{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    
+    .containersix img{
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        text-align: center;
+        color: orange;
+        margin-top: 5px;
+        margin-bottom: -10px;
+        width: 100%;
+    }
+    
+    .contactformcont{
+        justify-content: center;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    
+    .contactformcont input{
+        border-radius: 4px;
+        border-color: solid 1px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .contactformcont textarea{
+        border-radius: 4px;
+        border-color: solid;
+        margin-top: -1.5%;
+        background-color: orange;
+        width: 200px;
+    }
+    
+    .pageinfofoot{
+        text-align: center;
+        width: 20%;
+        margin-top: 10%;
+    }
+}
+   
+@media screen and (max-width: 480px) { 
+    .containerone .iconname{
+        margin-left: 10px;
+    }
+    
+    .containerone .iconname img{
+        padding-right: 15px;
+        height:20px;
+        width:20px;    
+    }
+    
+    .containerone .iconname h1{
+        font-size: medium;
+    }
+
+    .logos{
+        padding-right: 5%;
+    }
+
+    .logos a img{
+        width:13px;
+        height:13px;
+    }
+    
+    .containertwo{
+        justify-content: space-around;
+        margin-top:-1%;
+        padding: 3px;
+        margin-right: 1%;
+    }
+    
+    .containertwo a{
+        margin-top:6px;
+        font-size: xx-small;
+    }
+    
+    .containerthree{
+        margin-top: 15%;
+    }
+
+    .containerthree img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .containerfour img{
+        padding:3%;
+        margin-right: -2%;
+    }
+    
+    .textinfour h1{
+        margin-bottom: -13px;
+        font-size: medium;
+    }
+
+    .textinfour p{
+        font-size: x-small;
+    }
+    
+    .incontfour {
+        border-radius: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: x-small;
+        margin-right: 10%;
+    }
+    
+    .containerfour img{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .containerfive{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding: 1%;
+        width: 100%;
+    }
+    
+    .parts{
+        justify-content: center;
+        height: auto;
+        width:100%;
+        margin-bottom: 3%;
+        font-size: x-small;
+    }
+    
+    .parts img{
+        height: 200px;
+        width:310px;
+    }
+
+    .parts hr{
+        width:90%;
+    }
+    .parts p{
+        padding: 3%;
+    }
+    
+    .containersix{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    
+    .containersix img{
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
+        font-size: small;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+        color: orange;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    
+    .contactformcont{
+        justify-content: center;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+    .contactformcont input{
+        border-radius: 4px;
+        border-color: solid 1px;
+        padding: 3px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .contactformcont textarea{
+        border-radius: 4px;
+        border-color: solid;
+        margin-top: -1.5%;
+        background-color: orange;
+        width:150px;
+    }
+    
+    .pageinfofoot{
+        height: auto;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10%;
+        font-size: x-small;
+    }
+}
